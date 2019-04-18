@@ -30,6 +30,9 @@ public class CharacterController2D : MonoBehaviour
     public BoolEvent OnCrouchEvent;
     private bool m_wasCrouching = false;
 
+    private bool allowDoubleJump = true;
+    private bool startingJumping = false;
+
     private void Awake()
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -45,6 +48,7 @@ public class CharacterController2D : MonoBehaviour
     {
         bool wasGrounded = m_Grounded;
         m_Grounded = false;
+        startingJumping = false;
 
         // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
         // This can be done using layers instead but Sample Assets will not overwrite your project settings.
@@ -54,6 +58,8 @@ public class CharacterController2D : MonoBehaviour
             if (colliders[i].gameObject != gameObject)
             {
                 m_Grounded = true;
+                // Enable doubleJump again
+                allowDoubleJump = true;
                 if (!wasGrounded)
                     OnLandEvent.Invoke();
             }
@@ -129,7 +135,19 @@ public class CharacterController2D : MonoBehaviour
         {
             // Add a vertical force to the player.
             m_Grounded = false;
-            m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+            startingJumping = true;
+            m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));                       
+        }
+
+        // Check for double jump in midair
+        if (!startingJumping && allowDoubleJump && jump)
+        {
+            // Add a vertical force to the player.
+            m_Grounded = false;
+            m_Rigidbody2D.velocity = Vector3.zero; // reset velocity (onlyt)
+            m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce * 1.25f));
+            // Disable doubleJump until we hit the ground again
+            allowDoubleJump = false;
         }
     }
 

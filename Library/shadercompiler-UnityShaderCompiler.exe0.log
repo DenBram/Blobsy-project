@@ -1,29 +1,112 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
 Cmd: preprocess
-  insize=4908 outsize=1731 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=25383 outsize=3070 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=25383 outsize=7262 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=18084 outsize=2962 kw=UNITY_PASS_FORWARDADD POINT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=18084 outsize=4466 kw=UNITY_PASS_FORWARDADD POINT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+  insize=5075 outsize=1764 ok=1
 Cmd: preprocess
-  insize=2832 outsize=1604 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=45089 outsize=2650 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=45089 outsize=4778 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=14487 outsize=2786 kw=UNITY_PASS_FORWARDADD POINT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=14487 outsize=3406 kw=UNITY_PASS_FORWARDADD POINT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=28541 outsize=2898 kw=UNITY_PASS_META pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=28541 outsize=838 kw=UNITY_PASS_META pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+  insize=2945 outsize=1632 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
