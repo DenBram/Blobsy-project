@@ -7,7 +7,7 @@ public class CompleteCameraController : MonoBehaviour
     public GameObject player;       //Public variable to store a reference to the player game object
     private Vector3 offset;         //Private variable to store the offset distance between the player and camera
     float yVal = 0f;
-    public Camera camera = Camera.main;
+    //public Camera camera = Camera.main;
 
     // Use this for initialization
     void Start()

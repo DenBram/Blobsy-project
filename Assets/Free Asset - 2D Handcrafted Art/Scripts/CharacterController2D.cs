@@ -148,6 +148,12 @@ public class CharacterController2D : MonoBehaviour
             m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce * 1.25f));
             // Disable doubleJump until we hit the ground again
             allowDoubleJump = false;
+
+            // show cool as fuck animation?
+            GameObject icicle = GameObject.Find("icicle_2x");
+            icicle.GetComponent<SpriteRenderer>().transform.position = m_GroundCheck.position; //gameObject.transform.position;
+
+            icicle.GetComponent<SpriteRenderer>().enabled = true;
         }
     }
 

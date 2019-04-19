@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     public float baseRunSpeed = 20f;
     bool jump = false;
-    bool doubleJump = false;
+    //bool doubleJump = false;
     bool crouch = false;
 
 
@@ -44,6 +44,6 @@ public class PlayerMovement : MonoBehaviour
         // Actually move character, never do this in update()
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false; // reset jump after jumping once
-        doubleJump = false; // reset double jump after double jumping once
+        //doubleJump = false; // reset double jump after double jumping once
     }
 }
