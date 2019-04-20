@@ -112,6 +112,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &155674901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155674902}
+  m_Layer: 0
+  m_Name: IceFirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &155674902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155674901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.89, y: 1.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200209125}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,7 +208,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3
+  orthographic size: 2
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -302,6 +332,7 @@ GameObject:
   - component: {fileID: 1200209127}
   - component: {fileID: 1200209129}
   - component: {fileID: 1200209128}
+  - component: {fileID: 1200209130}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -391,6 +422,7 @@ Transform:
   m_Children:
   - {fileID: 1501057435}
   - {fileID: 1658315172}
+  - {fileID: 155674902}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -483,6 +515,20 @@ CircleCollider2D:
   m_Offset: {x: 0.0795061, y: -2.4708152}
   serializedVersion: 2
   m_Radius: 0.871287
+--- !u!114 &1200209130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200209122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d15eb1e6f0a83ce4387737f8ae96ece2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 0}
+  iciclePrefab: {fileID: 0}
 --- !u!1 &1314657766
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,6 +1182,7 @@ GameObject:
   - component: {fileID: 1984449125}
   - component: {fileID: 1984449124}
   - component: {fileID: 1984449126}
+  - component: {fileID: 1984449127}
   m_Layer: 0
   m_Name: blobking
   m_TagString: Untagged
@@ -1199,7 +1246,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984449121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.3, y: 6.9, z: 0}
+  m_LocalPosition: {x: 8.3, y: 2.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1383,3 +1430,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c282c869add461468d2ab1dfaa6837e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1984449127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984449121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f298e0b718eca1047a4ba634b9258605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
