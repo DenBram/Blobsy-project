@@ -69,6 +69,8 @@
     <Compile Include="Assets\Godlikes\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\HideOverTimeController.cs" />
     <Compile Include="Assets\IcicleBlastScript.cs" />
+    <Compile Include="Assets\LoveSparkScript.cs" />
+    <Compile Include="Assets\MovementScript.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\ProjectileScript.cs" />
     <None Include="Assets\Free Asset - 2D Handcrafted Art\Shader\NormalMappedTileAnimated.shader" />
